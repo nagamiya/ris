@@ -9,11 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let topView = TopView(frame: self.view.bounds)
+        print("bouds >>  + \(self.view.bounds)")
+        topView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.view.addSubview(topView)
+        
     }
+    
 
 
 }
