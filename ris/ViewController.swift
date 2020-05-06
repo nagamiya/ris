@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         print("bouds >>  + \(self.view.bounds)")
         topView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.view.addSubview(topView)
+
         
     }
     
